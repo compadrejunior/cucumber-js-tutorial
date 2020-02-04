@@ -88,7 +88,7 @@ features <br />
 └steps_definition<br />
 └support <br />
 
-Dentro da pasta features, crie um arquivo com o nome da funcionalidad a ser testada. Por exemplo, **pesquisa.feature**.
+Dentro da pasta features, crie um arquivo com extensão .feature e com o nome da funcionalidade a ser testada. Por exemplo, **pesquisa.feature**.
 
 Abra o arquivo em um editor de texto como Notepad, Notepad++, EditPlus ou VisualStudio Code.
 
