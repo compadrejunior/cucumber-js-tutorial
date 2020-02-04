@@ -1,0 +1,8 @@
+{
+  "steps": "./features/step-definitions",
+  "pageObjects": "./features/page-objects",
+  "sharedObjects": "./shared-objects",
+  "reports": "./features/reports",
+  "browser": "chrome",
+  "timeout": 10000
+}

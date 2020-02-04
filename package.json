@@ -1,0 +1,20 @@
+{
+  "name": "cucumberjs",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">\r   <a href=\"\" rel=\"noopener\">\r  <img height=\"200px\" width=\"200px\" src=\"cucumberjs.png\" alt=\"Project logo\"></a>\r </p>",
+  "main": "index.js",
+  "dependencies": {
+    "chai-as-promised": "^7.1.1",
+    "chai": "^4.2.0",
+    "selenium-webdriver": "^4.0.0-alpha.5",
+    "cucumber": "^6.0.5"
+  },
+  "devDependencies": {
+    "chromedriver": "^79.0.3"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC"
+}
