@@ -20,6 +20,6 @@ Funcionalidade: Pesquisar no Google
   
   Exemplos:
     |pesquisado   |resultado   |
-    |oatinside    |OAT Inside  |
+    |oat inside   |OAT Inside  |
     |atlassian    |Atlassian   |
 

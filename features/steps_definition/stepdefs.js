@@ -22,18 +22,16 @@ When('pressionar enter', function () {
 });
 
 Then('o site da OAT deverá ser exibido na lista de resultados', function () {
-  return expect(this.driver.findElement(By.xpath('/html/body/div[7]/div[3]/div[9]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div[1]/a')).getAttribute('href'))
-    .to.eventually.contain('http://www.oatsolutions.com.br/');
+  return expect(this.driver.findElement(By.xpath('/html/body/div[6]/div[2]/div[9]/div[1]/div[2]/div/div[2]/div[2]/div/div/div[1]/div/div/div[1]/a')).getAttribute('href'))
+    .to.eventually.contain('https://www.oatsolutions.com.br');
 });
 
-When('digitar o valor oatinside', function () {
-  return this.driver.findElement(By.name('q')).sendKeys('oatinside');
+When('digitar o valor oat inside', function () {
+  return this.driver.findElement(By.name('q')).sendKeys('oat inside');
 });
 
 Then('o link para o site OAT Inside deve ser exibido na lista de resultados', function () {
-  expect(this.driver.wait(until.elementLocated(By.linkText('OAT Inside')))
-    .then(() => { return true })
-    .catch(() => { return false })).to.be.true;
+  return expect(this.driver.findElement(By.linkText('OAT Inside'))).to.exist;
 });
 
 When('digitar o valor atlassian', function () {
@@ -41,7 +39,5 @@ When('digitar o valor atlassian', function () {
 });
 
 Then('o link para o site Atlassian deve ser exibido na lista de resultados', function () {
-  return expect(this.driver.wait(until.elementLocated(By.linkText('Atlassian')))
-    .then(() => { return true })
-    .catch(() => { return false })).to.be.true;
+  return expect(this.driver.findElement(By.linkText('Atlassian'))).to.exist;
 });
