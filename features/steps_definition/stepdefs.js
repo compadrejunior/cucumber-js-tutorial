@@ -24,9 +24,7 @@ When('pressionar enter', function () {
 Then('o site da OAT deverá ser exibido na lista de resultados', function () {
   return expect(
     this.driver.findElement(
-      By.xpath(
-        '/html/body/div[7]/div/div[10]/div[1]/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div[1]/a/h3'
-      )
+      By.xpath('//*[@id="rso"]/div[1]/div/div/div/div/div/div[1]/a/h3')
     )
   );
 });
