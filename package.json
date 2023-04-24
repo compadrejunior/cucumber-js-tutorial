@@ -8,7 +8,7 @@
     "chai-as-promised": "^7.1.1",
     "chromedriver": "^102.0.0",
     "cucumber": "^6.0.7",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "^4.8.2"
   },
   "devDependencies": {},
   "scripts": {
