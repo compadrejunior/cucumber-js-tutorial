@@ -15,7 +15,7 @@ When('o usuário clicar no campo de pesquisa', function () {
   return this.driver.findElement(By.name('q')).click();
 });
 When('digitar o valor {string}', function (string) {
-  return this.driver.findElement(By.name('q')).sendKeys('OAT Solutions');
+  return this.driver.findElement(By.name('q')).sendKeys('Nimble Evolution');
 });
 When('pressionar enter', function () {
   return this.driver.findElement(By.name('q')).sendKeys(Key.ENTER);
@@ -24,7 +24,9 @@ When('pressionar enter', function () {
 Then('o site da OAT deverá ser exibido na lista de resultados', function () {
   return expect(
     this.driver.findElement(
-      By.xpath('//*[@id="rso"]/div[1]/div/div/div/div/div/div[1]/a/h3')
+      By.xpath(
+        '//*[@id="rso"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a/h3'
+      )
     )
   );
 });
