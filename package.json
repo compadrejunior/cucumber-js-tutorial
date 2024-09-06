@@ -4,12 +4,12 @@
   "description": "<p align=\"center\">\r   <a href=\"\" rel=\"noopener\">\r  <img height=\"200px\" width=\"200px\" src=\"cucumberjs.png\" alt=\"Project logo\"></a>\r </p>",
   "main": "index.js",
   "dependencies": {
-    "chai": "^4.2.0",
+    "chai": "^4.3.10",
     "chai-as-promised": "^7.1.1",
     "chromedriver": "^102.0.0",
     "cucumber": "^6.0.7",
     "edgedriver": "^5.3.8",
-    "selenium-webdriver": "^4.0.0-alpha.7"
+    "selenium-webdriver": "^4.23.0"
   },
   "devDependencies": {},
   "scripts": {
